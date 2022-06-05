@@ -55,3 +55,25 @@ const products = {
     }
 } 
 ```
+
+***
+
+## Experience
+
+* Creating an API for an online school
+* Creating the logic of conducting lessons
+* Integration with other CRM
+
+***
+
+## Education
+
+* University: Nizhny Novgorod State Technical University
+* Courses:
+  * Geekbrains: Python Developer
+
+***
+
+## English
+
+B2

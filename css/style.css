@@ -1,5 +1,4 @@
 @import 'normalize.css';
-
 .wrapper{
     margin: 0 auto;
     max-width: 1440px;
@@ -23,28 +22,24 @@ ul{
 a{
     text-decoration: none;
 }
-
 .nav-list{
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
 }
-
 .nav-list li a{
     font-family: 'PT Sans Narrow';
     margin: 0;
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 24px;
-/* identical to box height, or 133% */
-letter-spacing: 2px;
-text-transform: uppercase;
-/* Secondary */
-color: #9E8C6C;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #9E8C6C;
 }
 .nav-list li a:hover{
-border-bottom: 2px solid #9E8C6C;
+    border-bottom: 2px solid #9E8C6C;
 }
 .avatar{
     width: 350px;
@@ -56,78 +51,56 @@ border-bottom: 2px solid #9E8C6C;
 .header-list li:first-child h2{
     font-family: 'PT Sans Narrow';
     margin: 0;
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 24px;
-/* identical to box height, or 133% */
-
-letter-spacing: 2px;
-text-transform: uppercase;
-
-/* Secondary */
-
-color: #9E8C6C;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #9E8C6C;
 }
 .header-list li:last-child h1{
     width: 635px;
     margin: 0;
     font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 900;
-font-size: 100px;
-line-height: 112px;
-/* or 89% */
-
-letter-spacing: -2.17241px;
-
-/* Font Color */
-
-color: #000000;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 112px;
+    letter-spacing: -2.17241px;
+    color: #000000;
 }
-
-/* main */
 .main{
     display: flex;
     justify-content: center;
     margin-top: 90px;
 }
-
 .right{
     width: 350px;
     margin-right: 125px;
 }
 .right-list{
-margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 .right-list li{
     font-family: 'PT Sans Narrow';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 34px;
-/* or 170% */
-
-
-/* Font Color */
-
-color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #000000;
 
 }
 .right-list li:first-child h2{
     font-family: 'PT Sans Narrow';
     margin: 0;
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 24px;
-/* identical to box height, or 133% */
-letter-spacing: 2px;
-text-transform: uppercase;
-/* Secondary */
-color: #9E8C6C;
-
-
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #9E8C6C;
 }
 .main-link{
   color: #0699A6;
@@ -135,58 +108,43 @@ color: #9E8C6C;
 .main-link:hover{
     color: #0699A6;
     border-bottom: 1px solid #0699A6;
-  }
-
-
-
+}
 .left{
     width: 635px;
 }
 .left-list li{
     font-family: 'PT Sans Narrow';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 34px;
-/* or 170% */
-
-
-/* Font Color */
-
-color: #000000;
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #000000;
 }
 .left-list li:first-child h2{
     font-family: 'Playfair Display';
     margin: 0;
-font-style: normal;
-font-weight: 900;
-font-size: 36px;
-line-height: 46px;
-color: #000000;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+    color: #000000;
 }
 .rectangle{
-width: 71px;
-height: 10px;
-background: #0699A6;
-margin-top: 80px;
-margin-bottom: 60px;
+    width: 71px;
+    height: 10px;
+    background: #0699A6;
+    margin-top: 80px;
+    margin-bottom: 60px;
 }
 .education-list li{
     font-family: 'PT Sans Narrow';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 24px;
-/* identical to box height, or 133% */
-
-letter-spacing: 1px;
-text-transform: uppercase;
-
-/* Secondary */
-
-color: #9E8C6C;
-
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #9E8C6C;
 }
 .courses{
     margin-top: 10px;
@@ -198,20 +156,17 @@ color: #9E8C6C;
     text-align: center;
     font-family: 'PT Sans Narrow';
     margin: 0;
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 24px;
-/* identical to box height, or 133% */
-letter-spacing: 2px;
-text-transform: uppercase;
-/* Secondary */
-color: #9E8C6C;
-margin-bottom: 20px;
-
-
-}
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #9E8C6C;
+    margin-bottom: 20px;
+    }
 .code-example{
+
     width: 700px;
     margin: 0 auto;
     background: #f6f4f1;
@@ -226,7 +181,6 @@ margin-bottom: 20px;
 .color-accent{
     color:#0699A6;
 }
-
 .footer{
     background-image: url('../img/footer.png');
 }
@@ -239,39 +193,28 @@ margin-bottom: 20px;
 .footer-list li{
     font-family: 'PT Sans Narrow';
     margin: 0;
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 24px;
-/* identical to box height, or 133% */
-
-letter-spacing: 2px;
-text-transform: uppercase;
-
-/* Secondary */
-
-color: #9E8C6C;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #9E8C6C;
 }
 .footer-list li a{
     font-family: 'PT Sans Narrow';
     margin: 0;
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 24px;
-/* identical to box height, or 133% */
-
-letter-spacing: 2px;
-text-transform: uppercase;
-
-/* Secondary */
-
-color: #9E8C6C;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #9E8C6C;
 }
 .footer-list li a:hover{
-
-color: #9E8C6C;
-border-bottom: 1px solid #9E8C6C;
+    color: #9E8C6C;
+    border-bottom: 1px solid #9E8C6C;
 }
 .rs-logo{
     width: 25px;

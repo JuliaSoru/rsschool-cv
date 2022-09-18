@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education-name">Education</a></li>
+                </ul>
+            </nav>
+            <section class="header-section">
+                <img src="img/avatar.jpg" alt="avatar" class="avatar">
+                <ul class="header-list">
+                    <li>
+                        <h2>Web Developer</h2>
+                    </li>
+                    <li>
+                        <h1 class="name">Julia Zakharova</h1>
+                    </li>
+                </ul>
+            </section>
+        </header>
+        <main>
+            <div class="main">
+                <section class="right">
+                    <ul class="right-list">
+                        <li>
+                            <h2><a id="contacts">Contacts</a> </h2>
+                        </li>
+                        <li>Russia, Nizhny Novgorod</li>
+                        <li>+7(960)1977278</li>
+                        <li>sorulaijuli@gmail.com</li>
+                        <li><a href="https://t.me/yumimipig" class="main-link">Telegram</a></li>
+                    </ul>
+                    <ul class="right-list">
+                        <li>
+                            <h2>Skills</h2>
+                        </li>
+                        <li>Git</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>Django rest framework</li>
+                        <li>Celery</li>
+                        <li>PostgreSQL</li>
+                        <li>WebSocket</li>
+                    </ul>
+                    <ul class="right-list">
+                        <li>
+                            <h2>Languages</h2>
+                        </li>
+                        <li>Russian - Native speaker</li>
+                        <li>English - B2</li>
+                    </ul>
+                    <ul class="right-list">
+                        <li>
+                            <h2>Projects</h2>
+                        </li>
+                        <li><a href="https://start.terenoi.com/" class="main-link">Terenoi</a></li>
+                    </ul>
+                </section>
+                <section class="left">
+                    <ul class="left-list">
+                        <li>
+                            <h2><a id="about">About me</a> </h2>
+                        </li>
+                        <li>I started programming at the institute. I had experience in backend product development on
+                            python for about a year. I solved many tasks on integration of various servers with the
+                            backend.
+                            Developed an API for an online school server.
+                        </li>
+                        <li class="rectangle"></li>
+                    </ul>
+                    <ul class="left-list">
+                        <li>
+                            <h2><a id="experience">Experience</a></h2>
+                        </li>
+                        <li>Creating an API for an online school</li>
+                        <li>Creating the logic of conducting lessons</li>
+                        <li>Integration with other CRM</li>
+                        <li class="rectangle"></li>
+                    </ul>
+                    <ul class="left-list education-list">
+                        <li>
+                            <h2><a id="education-name">Education</a></h2>
+                        </li>
+                        <li>University: Nizhny Novgorod State Technical University</li>
+                        <li class="courses">Courses:
+                            <ul>
+                                <li class="education-list__item">Geekbrains: Python Developer</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <section class="code">
+                <h2>Code Examples</h2>
+                <div class="code-example">
+                    <pre><code>
+<span class="color-accent">class</span> NotificationConsumer(WebsocketConsumer):<br>
+    <span class="color-accent">def</span> connect(self):<br>
+        user = self.scope.get('user')<br>
+        <span class="color-accent">self</span>.room_name = f'{user.username}'<br>
+        <span class="color-accent">self</span>.room_group_name = f'{user.username}_group'<br>
+        async_to_sync(self.channel_layer.group_add)(<br>
+        <span class="color-accent">self</span>.room_group_name,<br>
+        <span class="color-accent">self</span>.channel_name,<br>
+        )<br>
+        <span class="color-accent">self</span>.accept()<br>
+        <span class="color-accent">self</span>.update_user_status(user, True)<br>
+        <span class="color-accent">self</span>.send(text_data=json.dumps({'status': 'connected from django channels'}))<br>
+        <br>
+                    </code></pre>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <ul class="footer-list">
+                <li>2022</li>
+                <li><a href="https://github.com/JuliaSoru">JuliaSoru</a></li>
+                <li><a href="https://rs.school/js/"><img src="img/icon.png" alt="rs-logo" class="rs-logo"></a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>

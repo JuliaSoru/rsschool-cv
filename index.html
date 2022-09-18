@@ -108,7 +108,7 @@
                 <h2>Code Examples</h2>
                 <div class="code-example">
                     <pre><code>
-<span class="color-accent">class</span> NotificationConsumer(WebsocketConsumer):<br>    
+<span class="color-accent">class</span> NotificationConsumer(WebsocketConsumer):<br>
     <span class="color-accent">def</span> connect(self):<br>
         user = self.scope.get('user')<br>
         <span class="color-accent">self</span>.room_name = f'{user.username}'<br>
